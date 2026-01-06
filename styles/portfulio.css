@@ -239,6 +239,71 @@ line-height: 30px;
     margin-bottom: 30px;
 }
 
+#btn-mdl{
+text-align: center;
+margin-top: 50px;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .foot-container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    /* width: 452px; */
+    margin: 0 auto;
+    gap: 117px;
+}
+
+.foot-container .foot-card{
+    /* max-width: 562px; */  
+}
+
+.foot-container .foot-card h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.foot-container .foot-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+    /* max-width: 562px; */
+}
+
+.foot-container .icon a{
+    margin-right: 50px;
+}
+
+form h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 28px;
+}
+
+.foot-container form input[type="text"], input[type="email"], .foot-container textarea{
+    width: 461px;
+    /* height: 64px; */
+    padding: 18px 30px;
+    font-size: 16px;
+    color: #757575;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
 
