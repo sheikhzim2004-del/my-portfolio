@@ -170,7 +170,7 @@ line-height: 30px;
 #skills .skills-box .skills-card{
     padding: 30px;
     max-width: 267px;
-    /* border: 1px solid red; */
+    text-align: center;
     box-shadow: 0 6px 50px 0 #0000001e;
 
 }
@@ -237,6 +237,53 @@ line-height: 30px;
     line-height: 28px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+
+
+
+/* small device media responsive */
+@media screen and (max-width: 576px){
+    #about .about-container {
+    padding: 20px 10px;
+    width: 90%;
+}
+
+#about .about-container .section-info{
+    flex-direction: column;
+    gap: 30px;
+}
+    
+    
+    
+    
+    
+    
+    
+    #skills{
+    margin-top: 50px;
+}
+#skills .skills-container {
+    width: 95%;
+}
+.section-heading h2 {
+    font-size: 30px;
+}
+#skills .skills-box {
+    /* display: flex; */
+    flex-direction: column;
+}
+#skills .skills-box .skills-card {
+    max-width: 100vw;
+}
+
+
+}
+
+
+/* impotant */
+.hide{
+    display: none;  
 }
 
 
